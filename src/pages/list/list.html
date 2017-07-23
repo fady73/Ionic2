@@ -1,0 +1,28 @@
+<!--
+  Generated template for the ListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color='newheader'>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Accounts</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+    
+    <ion-list >
+      <ion-item *ngFor="let item of items" >
+        <ion-avatar item-start>
+          <img src="{{item.img}}">
+        </ion-avatar>
+        <h2>      {{ item.title }}</h2>
+        <button ion-button clear item-end (click)="openNavDetailsPage(item)">View</button>
+      </ion-item>
+    </ion-list>
+    
+</ion-content>
