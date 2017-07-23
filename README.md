@@ -1,6 +1,6 @@
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-### How to use With the Ionic CLI:
+### How to use with the Ionic CLI:
 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
@@ -16,5 +16,4 @@ $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 
-Substitute ios for android if not on a Mac.
 
